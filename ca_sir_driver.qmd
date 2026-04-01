@@ -1,20 +1,17 @@
 ---
-title: “Homework 11: Structured Programming and CA Models”
+title: “Homework 11 Structured Programming and CA Models”
 format: html
 ---
-
-
-```{python}
-# Homework 11: Structured Programming and CA Models
-# C. Forman
-# 1 April, 2026
-
-# Link [https://github.com/corey4man/CA_SIR_6100]
 
 # Repository structure:
     # functions:
         # draw, init, mouse, update
     # ca_sir_driver
+
+```{python}
+# Homework 11: Structured Programming and CA Models
+# C. Forman
+# 1 April, 2026
 
 # import libraries
 import pygame
@@ -24,9 +21,9 @@ import matplotlib.pyplot as plt
 # import functions here....
 
 from functions.draw import draw
-from functions.init import init
+from functions.init import init_grid
 from functions.mouse import mouse_to_cell
-from functions.update import update_fast
+from functions.update import update_sir
 
 # States
 S = 0

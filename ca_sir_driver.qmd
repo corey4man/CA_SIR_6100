@@ -9,6 +9,8 @@ format: html
 # C. Forman
 # 1 April, 2026
 
+# Link [https://github.com/corey4man/CA_SIR_6100]
+
 # Repository structure:
     # functions:
         # draw, init, mouse, update
